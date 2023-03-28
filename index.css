@@ -2,6 +2,9 @@
    margin: 0;
    padding: 0;
 }
+button{
+    cursor: pointer;
+}
 .nav_1{
     background-color: #070727;
     height: 40px;
@@ -120,6 +123,7 @@ nav li:hover{
     position: absolute;
     top: 1px;
     left: 3px;
+    cursor: pointer;
     
 }
 .destination_summary div button{
@@ -226,9 +230,8 @@ nav li:hover{
     border: 1px solid;
     cursor: pointer;
 }
-#tour_overview button{
-  cursor: pointer;
-
+#search_Button{
+    cursor: pointer;
 }
 .banner_2{
   width: 1583px;
@@ -333,8 +336,8 @@ nav li:hover{
 }
 .travel_Logos{
     position: absolute;
-    left: 931px;
-    top: 2030px;
+    left: 822px;
+    top: 2052px;
     gap: 84px;
     display: flex;
 }
@@ -342,24 +345,8 @@ i{
     display: block;
     color: white;
 }
-.travel_Logos i{
-    border: 2px solid green;
-    height: 25px;
-    width: 48px;
-    text-align: center;
-    border-radius: 17px;
-    background-color: wheat;
-    color: black;
-    cursor: pointer;
-}
-.travel_Logos i:hover{
-    height: 25px;
-    width: 48px;
-    color: white;
-    background-color: brown;
-    border: 2px solid white;
 
-}
+
 .ta_logo_2{
     position:absolute ;
     height: 413px;
@@ -451,7 +438,7 @@ i.fa-solid.fa-star {
     background-color: rgb(218, 184, 184);
     border-radius: 50%;
     cursor: pointer;
-
+    
 }
 #circ:hover{
     display: inline-block;
@@ -474,15 +461,15 @@ i.fa-solid.fa-star {
     width: 90px;
     top: 1633px;
     left: 306px;
-
+    
 }
 input[type="email"]{
-position: relative;
-height: 29px;
-width: 199px;
-background-color: transparent;
-outline: none;
-border: none;
+    position: relative;
+    height: 29px;
+    width: 199px;
+    background-color: transparent;
+    outline: none;
+    border: none;
 }
 .emailField{
     position: relative;
@@ -491,7 +478,7 @@ border: none;
     width: 227px;
     border: 2px solid black;
     left: 287px;
-
+    
 }
 .about p{
     position: absolute;
@@ -505,7 +492,7 @@ border: none;
     top: 3446px;
     display: flex;
     gap: 50px;
-     padding-bottom: 15px;
+    padding-bottom: 15px;
     column-gap: 30px;
     left: 722px;
     color: rgb(136, 120, 120);
@@ -518,4 +505,25 @@ border: none;
 }
 #quick_link-1 p{
     cursor: pointer;
+}
+.traveling_tour_background{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.traveling_tour_background:hover{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: white;
+}
+#traveling{
+    font-size: 44px;
+    position: relative;
+    top: 24px;
+    left: 24px;
+    color: black;
 }
