@@ -1,0 +1,509 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.nav_1{
+    background-color: #070727;
+    height: 40px;
+    color: gray;
+    display: flex;
+   flex-direction: row;
+
+}
+.nav_1 p{
+    position: absolute;
+    left: 150px;
+    top: 5px;
+}
+.nav_1 p:hover{
+    color: wheat;
+    text-decoration: underline;
+}
+
+
+#address{
+    position: absolute;
+    left: 250px;
+    top: 5px;
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+    height: 50px;
+    background-color: #59afab;
+   color: white;
+   position: relative;
+}
+nav li{
+   list-style-type: none;
+   position:relative;
+   left: 764px;
+   font-size: large;
+   font-family:Arial, Helvetica, sans-serif;
+   top: 10px;
+   cursor: pointer;
+}
+nav li:hover{
+    color: wheat;
+    text-decoration: underline;
+}
+
+.travel_AddaLogo{
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    color: white;
+    position: relative;
+    left: 91px;
+    top: 47px;
+    cursor: pointer;
+}
+.material-symbols-outlined{
+    position: relative;
+    left:90%;
+    top: 5px;
+    color: white;
+    cursor: pointer;
+}
+#profile{
+    position: relative;
+    left: 91%;
+    top: 10px;
+    color: white;
+}
+.landing_page_1{
+    width: 1526px;
+    height: 687px;
+}
+.banner_Quotes{
+    
+    position: absolute;
+    top: 264px;
+    left: 294px;
+    color: wheat;
+
+}
+.banner_Quotes h1{
+    position: relative;
+    top: 20px;
+    font-weight: bolder;
+}
+.banner_Quotes p{
+    position: relative;
+    top: 24px;
+}
+.learn_more{
+    position: absolute;
+    top: 465px;
+    left: 295px;
+    height: 40px;
+    width: 117px;
+    border-radius: 6px;
+    border: none;
+    background-color: wheat;
+}
+.destination_summary{
+    height: 288px;
+    width: 900px;
+    background-color: white;
+    border: 1px solid;
+    position: absolute;
+    left: 299px;
+    border-radius: 9px;
+    top: 611px;
+}
+.destination_summary div{
+    display: flex;
+    list-style-type: none;
+    gap: 1px;
+    position: absolute;
+    top: 1px;
+    left: 3px;
+    
+}
+.destination_summary div button{
+    border: none;
+    height: 43px;
+    width: 163px;
+    border-radius: 5px;
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.destination_tour_form{
+    display: flex;
+    gap: 10px;
+}
+#destination{
+    position: relative;
+    height: 42px;
+    width: 167px;
+    top: 100px;
+    left: 48px;
+    font-size: 20px;
+    background-color: wheat;
+    border-radius: 5px;
+}
+#hotel{
+    position: relative;
+    height: 42px;
+    width: 167px;
+    top: 100px;
+    left: 641px;
+    font-size: 20px;
+    background-color: wheat;
+    border-radius: 5px;
+}
+#date_In{
+    background-color: wheat;
+    height: 42px;
+    width: 167px;
+    position: relative;
+    top: 100px;
+    left: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#date_In p{ 
+      position: relative;
+      top: 10px;
+      left: 44px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#date_In input{
+    position: relative;
+    left: 0px;
+    border: none;
+    outline: none;
+    top: 0px;
+    background-color: wheat;
+    font-size: large;
+    font-family: sans-serif;
+    
+}
+#date_Out{
+    background-color: wheat;
+    height: 42px;
+    width: 167px;
+    position: relative;
+    top: 100px;
+    left: 277px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#date_Out input{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    font-size: large;
+    font-family: sans-serif;
+    border: none;
+
+}
+#date_Out p{ 
+    position: relative;
+    top: 10px;
+    left: 38px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#tour_submit{
+    position: relative;
+    top: 200px;
+    left: 261px;
+    cursor: pointer;
+    border: 1px solid;
+}
+#tour_overview button{
+  cursor: pointer;
+
+}
+.banner_2{
+  width: 1525px;
+}
+.banner_Quotes_2{
+    position: absolute;
+    top: 1069px;
+    color: rgb(243, 231, 209);
+    left: 142px;
+
+}
+.banner_2_button{
+    position: relative;
+    height: 40px;
+    width: 117px;
+    bottom: 269px;
+    left: 141px;
+    background-color: wheat;
+    border-radius: 5px;
+    border: none;
+}
+@keyframes slidy {
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+
+    div#captioned-gallery { 
+      width: 425px; overflow: hidden; height:41%;
+    }
+    figure.slider { 
+      position: relative; width: 500%;
+      font-size: 0; animation: 30s slidy infinite; 
+    }
+    figure.slider figure { 
+      width: 20%; height: auto;
+      display: inline-block;  position: inherit; 
+    }
+    figure.slider img { width: 100%; height: auto; }
+    figure.slider figure figcaption { 
+      position: absolute; bottom: 0;
+      background: rgba(0,0,0,0.4);
+      color: #fff; width: 100%;
+      font-size: 2rem; padding: .6rem; 
+    }
+    
+.picture_Slider{
+  /* position: absolute;
+  top: 200px; */
+}
+#captioned-gallery{
+    position: absolute;
+    top: 1000px;
+    left: 942px;
+    border: 2px solid wheat;
+}
+.banner_3{
+    position: absolute;
+    top: 1543px;
+    width: 1525px;
+    height: 838px;
+}
+.banner_Quotes_3{
+    position:absolute;
+    left: 834px;
+    top: 1700px;
+    color: black;
+}
+.banner_Quotes_3 h1{
+    font-size: 40px;
+}
+.banner_Quotes_3 b{
+    font-size: 25px;
+}
+.banner_Quotes_3 b p{
+    color: white;
+}
+
+#banner_Quotes_Li_3{
+    font-size: 18px;
+}
+.dotted_circle{
+    position: relative;
+}
+
+.line_circle{
+        height: 137px;
+    position: relative;
+    width: 135px;
+}
+.line{
+    height: 50px;
+    position: relative;
+    width: 82px;
+    bottom: 44px;
+}
+.travel_Logos{
+    position: absolute;
+    left: 931px;
+    top: 2030px;
+    gap: 84px;
+    display: flex;
+}
+i{
+    display: block;
+    color: white;
+}
+.travel_Logos i{
+    border: 2px solid green;
+    height: 25px;
+    width: 48px;
+    text-align: center;
+    border-radius: 17px;
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+}
+.travel_Logos i:hover{
+    height: 25px;
+    width: 48px;
+    color: white;
+    background-color: brown;
+    border: 2px solid white;
+
+}
+.ta_logo_2{
+    position:absolute ;
+    height: 413px;
+}
+.banner_4{
+    position: absolute;
+    display: block;
+    top: 2381px;
+    width: 1525px;
+    height: 838px;
+}
+.banner_Quotes_4{
+    position: relative;
+    display: inline-block;
+    top: 900px;
+    color: white;
+    left: 580px;
+}
+.banner_Quotes_4 h1{
+    color: wheat;
+}
+.banner_Quotes_4 b{
+    font-size: 21px;
+    position: relative;
+    left: 50px;
+}
+.banner_Quotes_4 p{
+    position: relative;
+    top: 10px;
+    font-size: 17px;
+}
+.cards{
+    position: absolute;
+    height: 404px;
+    top: 2754px;
+    left: 415px;
+    display: flex;
+    gap: 43px;
+}
+#card{
+    border: none;
+    height: 399px;
+    width: 250px;
+    box-shadow: 2px -1px wheat;
+    border-radius: 5px;
+}
+.cards b {
+    position: relative;
+    left: 149px;
+    color: wheat;
+    bottom: 19px;
+}
+.cards p {
+    font-size: 17px;
+}
+.cards button{
+    border: none;
+    position: relative;
+    top: 15px;
+    height: 37px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+}
+i.fa-solid.fa-star {
+    color: yellow;
+    position: relative;
+    left: 25px;
+    top: 14px;
+}
+.circles_swipe{
+    position: absolute;
+    display: flex;
+    /* border: 2px solid black; */
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    top: 3173px;
+    left: 47rem;
+    gap: 20px;
+}
+#circ{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(218, 184, 184);
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+#circ:hover{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: wheat;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.banner_5{
+    position: absolute;
+    display: block;
+    top: 3219px;
+    width: 1525px;
+    height: 500px;  
+}
+.ta_logo_3{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    top: 1663px;
+    left: 306px;
+
+}
+input[type="email"]{
+position: relative;
+height: 29px;
+width: 199px;
+background-color: transparent;
+outline: none;
+border: none;
+}
+.emailField{
+    position: relative;
+    top: 1800px;
+    height: 30px;
+    width: 227px;
+    border: 2px solid black;
+    left: 287px;
+
+}
+.about p{
+    position: absolute;
+    top: 3478px;
+    left: 287px;
+    font-size: 17px;
+    color: rgb(156, 142, 114);
+}
+.quick_links{
+    position: absolute;
+    top: 3446px;
+    display: flex;
+    gap: 50px;
+    column-gap: 30px;
+    left: 722px;
+    color: rgb(136, 120, 120);
+}
+#quick_1{
+    position: relative;
+    left: 130px;
+    bottom: 40px;
+    color: rgb(105, 95, 77);
+}
