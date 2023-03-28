@@ -73,7 +73,7 @@ nav li:hover{
     color: white;
 }
 .landing_page_1{
-    width: 1526px;
+    width: 1583px;
     height: 687px;
 }
 .banner_Quotes{
@@ -145,6 +145,7 @@ nav li:hover{
     font-size: 20px;
     background-color: wheat;
     border-radius: 5px;
+    cursor: pointer;
 }
 #hotel{
     position: relative;
@@ -155,6 +156,7 @@ nav li:hover{
     font-size: 20px;
     background-color: wheat;
     border-radius: 5px;
+    cursor: pointer;
 }
 #date_In{
     background-color: wheat;
@@ -165,6 +167,7 @@ nav li:hover{
     left: 250px;
     border: 1px solid black;
     border-radius: 5px;
+    cursor: pointer;
 }
 #date_In p{ 
       position: relative;
@@ -172,6 +175,7 @@ nav li:hover{
       left: 44px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
 
 }
 #date_In input{
@@ -183,6 +187,7 @@ nav li:hover{
     background-color: wheat;
     font-size: large;
     font-family: sans-serif;
+    cursor: pointer;
     
 }
 #date_Out{
@@ -194,6 +199,7 @@ nav li:hover{
     left: 277px;
     border: 1px solid black;
     border-radius: 5px;
+    cursor: pointer;
 }
 #date_Out input{
     position: relative;
@@ -218,13 +224,14 @@ nav li:hover{
     left: 261px;
     cursor: pointer;
     border: 1px solid;
+    cursor: pointer;
 }
 #tour_overview button{
   cursor: pointer;
 
 }
 .banner_2{
-  width: 1525px;
+  width: 1583px;
 }
 .banner_Quotes_2{
     position: absolute;
@@ -242,6 +249,7 @@ nav li:hover{
     background-color: wheat;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 @keyframes slidy {
     20% { left: 0%; }
@@ -285,8 +293,8 @@ nav li:hover{
 }
 .banner_3{
     position: absolute;
-    top: 1543px;
-    width: 1525px;
+    top: 1572px;
+    width: 1583px;
     height: 838px;
 }
 .banner_Quotes_3{
@@ -359,8 +367,8 @@ i{
 .banner_4{
     position: absolute;
     display: block;
-    top: 2381px;
-    width: 1525px;
+    top: 2410px;
+    width: 1583px;
     height: 838px;
 }
 .banner_Quotes_4{
@@ -456,15 +464,15 @@ i.fa-solid.fa-star {
 .banner_5{
     position: absolute;
     display: block;
-    top: 3219px;
-    width: 1525px;
+    top: 3248px;
+    width: 1583px;
     height: 500px;  
 }
 .ta_logo_3{
     position: relative;
     height: 90px;
     width: 90px;
-    top: 1663px;
+    top: 1633px;
     left: 306px;
 
 }
@@ -497,6 +505,7 @@ border: none;
     top: 3446px;
     display: flex;
     gap: 50px;
+     padding-bottom: 15px;
     column-gap: 30px;
     left: 722px;
     color: rgb(136, 120, 120);
@@ -506,4 +515,7 @@ border: none;
     left: 130px;
     bottom: 40px;
     color: rgb(105, 95, 77);
+}
+#quick_link-1 p{
+    cursor: pointer;
 }
